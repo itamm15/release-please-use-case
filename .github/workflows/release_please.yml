@@ -12,7 +12,7 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: itamm15/release-please-action@d25405c9358289d3264fc13d4cd8d527cc9e53ff
+      - uses: itamm15/release-please@d25405c9358289d3264fc13d4cd8d527cc9e53ff
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           base: main
